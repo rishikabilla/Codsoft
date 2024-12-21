@@ -1,0 +1,1 @@
+This is a visually stunning and user-friendly website for a restaurant that offers "Hundreds of flavors under one roof." This project showcases a modern design and an intuitive layout to attract visitors and provide essential information about the restaurant.

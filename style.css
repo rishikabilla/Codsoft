@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playwrite+BE+VLG+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+BE+VLG+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+body{
+    margin:0;
+    padding:0;
+    background-color: #b68d40;
+}
+*
+{
+    margin:0;
+    padding:0;
+}
+header{
+    position: relative;
+    height:70vh;
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: overlay;
+    overflow-x: hidden;
+
+}
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*  video fills the header */
+    z-index: -1; /* Placing the video behind the content */
+  }
+.header-content {
+    position: relative;
+    z-index: 1; 
+    color: white;
+    text-align: center;
+    top:20%;
+    padding: 10px;
+}
+.header-content button
+{
+    background-color: rgba(110, 117, 124, 0.7);
+    padding:12px 22px;
+    font-size: 22px;
+    box-shadow: 0 8px 12px 0 rgba(240,237,237,0.2);
+    color: white;
+    border: none;
+    font-family: "Exo", serif;
+    font-weight: 350;
+    border-radius: 4px;
+}
+.header-content button:hover
+{
+    transform: scale(1.05);
+}
+.restaurant-name
+{
+    font-family: "Poppins",serif;
+    font-weight: 400;
+    font-size: 45px;
+}
+.tagline
+{
+    font-family: "Montserrat",serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+.food-items
+{
+    height:auto;
+    width:100%;
+    margin-top: 10px;
+    background-color: #b68d40;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.food-name{
+ font-size: 33px;
+ font-weight: 600;
+ font-family: "Poppins",serif;
+}
+
+.food-items img
+{
+    height:450px;
+    
+}
+.special-items
+{
+ font-family: "Montserrat", serif;
+ font-weight: 600;
+ font-size: 35px;
+ text-shadow: 0 0 10px #ac670c, 0 0 20px #ad650c, 0 0 30px #1b030f15, 0 0 40px #1b030f15, 0 0 50px #1b030f15, 0 0 60px #1b030f15, 0 0 70px #1b030f15;
+}
+.about-dabba
+{
+    height:auto;
+    width: 100%;
+    background-image: url("about.webp");
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+    color:white;
+    z-index: -1;
+}
+.About-us
+{
+    font-size: 30px;
+    font-family: "Exo",serif;
+    font-weight: 600;
+}
+.sodhi
+{
+    font-size: 22px;
+    font-weight: 250;
+    font-family: "Poppins",serif;
+}
+@media (max-width:768px)
+{
+.header-content
+{
+    top:40%;
+}
+.header-content button
+{
+    font-size: 20px;
+    padding: 10px 12px;
+}
+.restaurant-name
+{
+    font-size: 30px;
+}
+.tagline
+{
+    font-size: 22px;
+}
+.food-items img
+{
+    height:200px;
+}
+.special-items
+{
+    
+   font-size: 20px;
+}
+.food-name
+{
+    font-size: 15px;
+}
+.About-us
+{
+    font-size: 22px;
+    
+}
+.sodhi
+{
+    font-size: 18px;
+    
+}
+}
